@@ -6,6 +6,7 @@
     android:background="#8DE1E1E1">
 
     <ImageView
+        android:id="@+id/iv_Menu"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:src="@drawable/smp"
