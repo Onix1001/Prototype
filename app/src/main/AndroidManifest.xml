@@ -9,9 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Prototype">
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity"></activity>
         <activity android:name=".MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,6 +17,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".GuruActivity"></activity>
+        <activity android:name=".EskulActivity"></activity>
+        <activity android:name=".FasilitasActivity"></activity>
+        <activity android:name=".PrestasiActivity"></activity>
+        <activity android:name=".GaleriActivity"></activity>
     </application>
 
 </manifest>
